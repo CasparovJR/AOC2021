@@ -46,5 +46,4 @@ with open("Chal03.txt", 'r') as f:
 
         bitCount += 1
 
-    print(l, m)
     print(int(l[0], 2) *  int(m[0], 2))

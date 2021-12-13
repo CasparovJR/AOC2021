@@ -1,7 +1,5 @@
 import itertools
 inp = []
-folds = []
-
 with open('Chal13.txt', 'r') as f:
     for i in f.readlines():
         if i != '\n':

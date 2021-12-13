@@ -7,9 +7,7 @@ with open('Chal13.txt', 'r') as f:
                 i = i.split(',')
                 inp.append([int(i[0]), int(i[1])])
             except:
-                i = i[0].split(' ')
-                i = i[2]
-                i = i.split('=')
+                i = i[0].split(' ')[2].split('=')
                 if i[0] == 'x':
                     for j in range(len(inp)):
                         if int(inp[j][0]) > int(i[1]):
